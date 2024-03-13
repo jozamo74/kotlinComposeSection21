@@ -22,7 +22,8 @@ class MainActivity : ComponentActivity() {
 //                    modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    visibilityAnimation()
+//                    visibilityAnimation()
+                    CrossfadeExampleAnimation()
                 }
             }
         }
@@ -41,6 +42,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Section21Theme {
-        visibilityAnimation()
+//        visibilityAnimation()
+        CrossfadeExampleAnimation()
     }
 }
